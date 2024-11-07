@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Http\Requests\UserRequest;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 class AdminController extends Controller
 {
