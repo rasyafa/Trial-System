@@ -13,7 +13,7 @@
         :root {
             --main-bg-color: #009d63;
             --main-text-color: #32CD32;
-            --second-text-color: #3d3d3d;
+            --second-text-color: #686868;
             /* Set text color to black */
             --second-bg-color: #fff;
             /* Gradient colors */
@@ -169,7 +169,7 @@
             </div>
             <div class="list-group list-group-flush my-3" >
                 <!-- Dashboard -->
-                <a href="#" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
+                <a href="{{ route('admin.dashboard') }}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold">
                     <i class="fas fa-tachometer-alt me-2"></i>Dashboard
                 </a>
 

@@ -9,13 +9,13 @@ use App\Models\User;
 use App\Http\Requests\UserRequest;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
-class AdminController extends Controller
+class AdminController2 extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-        $this->middleware('role:admin'); // Disesuaikan dengan nama di Kernel.php
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    //     $this->middleware('role:admin'); // Disesuaikan dengan nama di Kernel.php
+    // }
 
     public function dashboard()
     {
